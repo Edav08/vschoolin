@@ -1,0 +1,50 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 6px;
+    width: 50%;
+    grid-auto-rows: minmax(100px, auto)
+}
+
+.color-box{
+    border-radius: 6px;
+}
+
+.red {
+    background: red;
+    grid-column: 1 / span 4;
+
+}
+.blue {
+    background: blue;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.green {
+    background: green;
+    grid-column: 3 / span 2;
+}
+
+.purple{
+    background:purple;
+    grid-column: span 1;
+}
+
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) {
+
+}
+
+@media only screen 
+and (min-device-width : 481px) 
+and (max-device-width : 768px) {
+
+}
+
+@media only screen 
+and (min-device-width : 769px) 
+and (max-device-width : 1024px) {
+
+}
