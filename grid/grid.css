@@ -1,0 +1,42 @@
+body {
+    max-width: 815px;
+    margin: 20% auto;
+} 
+
+div {
+
+    height: 100px;
+    width: 800px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.pink {
+    background:#F5C6D6;
+    width:800px;
+}
+
+.dark-pink {
+    display: inline-block;
+    background:#EE2E84;
+    width: 190px;
+}
+
+.light-blue {
+    display: inline-block;
+    background:#85CFD8;
+    width: 395px;
+}
+
+.light-green {
+    display: inline-block;
+    background: #8DC63F;
+    width:595px;
+}
+
+.orange {
+    display: inline-block;
+    width: 195px; 
+    background: #E76E34;
+
+}
