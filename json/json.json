@@ -1,0 +1,99 @@
+{
+    "appetizers":[
+        {
+            "chicken nuggets" :{
+                "ingredients":[
+                    "chicken", "breading"
+                ],
+                "description":"tendies need no introduction",
+                "price" : "4"
+            },
+            "french fries" :{
+                "ingredients":[
+                    "potatos", "love"
+                ],
+                "description": "an Amrican favorite, golden gown and crispy",
+                "price" : "4"
+            },
+            "nachos" : {
+                "ingredients":[
+                    "nachos", "cheese", "salsa","jalepeno"
+                ],
+                "description":"loaded nachos topped with all the fixins!",
+                "price": "5"
+            },
+            "fried curds" : {
+                "ingredients" : [
+                    "cheese", "breading"
+                ],
+                "description":"better than any fried cheese you've had!",
+                "price": "5"
+            }
+        }
+    ],
+    "cold sandwiches":[
+        {
+            "ham and cheese":{
+                "ingredients":[
+                    "ham", "cheese"
+                ],
+                "description":"slab o ham with a slab o cheese",
+                "price": "6"
+            },
+            "itialian": {
+                "ingredients":[
+                    "salami", "pepperoni", "ham", "cheese", "veggies"
+                ],
+                "description":"massive mound of meat",
+                "price": "8"
+            },
+            "chicken salad":{
+                "ingredients":[
+                    "chicken", "mayo", "salad"
+                ],
+                "description": "Mom's homemade style chicken salad",
+                "price":"5"
+            }
+        }
+    ],
+    "hot sandwiches":[
+        {
+            "grilled cheese": {
+                "ingredients":[
+                    "bread", "cheese"
+                ],
+                "description":"Melty goodness",
+                "price":"5"
+            },
+            "reuben": {
+                "ingredients":[
+                    "beef","sourkraut", "marbled bread"
+                ],
+                "description":"awesomeness in a sammy",
+                "price":"7"
+            },
+            "cuban": {
+                "ingredients":[
+                    "same as reuben, but with pickles"
+                ],
+                "description":"see ingredients",
+                "price": "7"
+            }
+        }
+    ],
+    "desserts":[
+        {
+            "brownie": "4",
+            "bread pudding": "4",
+            "baklava": "4"
+        }
+    ],
+    "drinks":[
+        {
+            "fountain drinks": "1",
+            "milk" : "1",
+            "squeezed oj": "3"
+        }
+    ]
+    
+}
