@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="travel.css">
+    <title>Soul Plane</title>
+</head>
+<body>
+    <div class="title-box">
+        <h1> Soul Plane Airlines</h1>
+        <h2>'We fly. We party. We land.</h2>
+    </div>
+    <form id="input-form">
+        <h3>Personal Information</h3>
+
+            <label for="fName">First:<input id="fName" type="text" name="fname"></label>
+            <label for="lName">Last:<input id="lName" type="text" name="lname"></label>
+            <label for="age">Age:<input id="age" name="age" type="number"></label>
+
+         <label for="gender">Male<input id="male" name="gender" type="radio" value="male"></label>
+         <label for="gender">Female<input id="male" name="gender" type="radio" value="female"></label>
+       
+            <label for="destination">Destination: <select name="destination"></label>
+                <option class="drop-down" value="Los Angeles" name="Los Angeles">Los Angeles, CA</option>
+                <option class="drop-down" value="Detroit" name="Detroit">Detroit, MI</option>
+                <option class="drop-down" value="Chicago" name="Chicago">Chicago, IL</option>
+            </select>
+  
+            <label for="vegetarian">Vegetarian<input name="vegetarian" id="vegetarian" type="checkbox" value="Vegetarian"></label>
+            <label for="kosher">Kosher<input name="kosher" id="kosher" type="checkbox" value="Kosher"></label>
+            <label for="vegan">Vegan<input name="vegan" id="vegan" type="checkbox" value="Vegan"></label>
+            <label for="pastafarian">Pastafarian<input name="pastafarian" id="pastafarian" type="checkbox" value="Pastafarian"></label>
+            <br><br>
+        <button id="submit-button">Submit</button>
+    </form>
+    <script rel="javascript" src="travel.js"></script>
+</body>
+</html>

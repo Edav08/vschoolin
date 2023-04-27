@@ -1,0 +1,46 @@
+body {
+    display: relative;
+    width: 50%;
+    margin: 15% auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+
+form {
+    border: 2px solid darkolivegreen;
+    border-radius: 6px;
+    background-color: aqua;
+    line-height: 25px;
+    margin-top: -5px;
+    padding: 20px;
+}
+
+
+#fName, #lName {
+    font-size: 1.5em;
+    width: 90%;
+    padding:10px;
+
+}
+
+
+
+.title-box {
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 6px;
+    background-color:aqua;
+    margin: 0px;
+    padding: 25px;
+    line-height: 5px;
+    
+   
+}
+
+#submit-button {
+    font-size: 1.5em;
+    display: inline-block;
+    background-color: aqua;
+    
+}

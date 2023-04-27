@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+    
+}
+header{
+    text-align: center;
+    color:white;
+    
+}
+section{
+    font-family: 'Libre Baskerville', serif;
+    
+    color: #325050;
+}
+p{
+    font-size: .9em;
+    line-height: 28px;
+    margin: 10px 40px;
+}
+h1, h2, h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    padding-bottom: 10px;
+    font-weight:200;
+    margin: 15px 40px;
+}
+h1{
+    /* padding:20px; */
+    padding-top:40px;
+}
+h2{
+    font-size: 1em;
+    font-style: italic;
+}
+h3{
+    margin: 2em 0 0 0; 
+}
+a{
+    text-decoration: none;
+    display: block;
+    position: relative;
+    top: 20%;
+    color:#0d8ba1;
+   
+}
+ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto, auto;
+    margin: 0;
+    padding:0;
+
+}
+li{
+
+    height: 60px;
+    text-align: left;
+    padding-left: 50px;
+    width:100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+footer{
+    font-size: 30px;
+    margin: 20px;
+
+}
+
+footer a{
+    display:inline;
+    color: rgba(255, 255, 255, 0.8);
+}
+footer p{
+    color: rgba(255, 255, 255, 0.4);
+}
+aside a {
+    color: #607476;
+}
+aside .author{
+    color:#616857;
+    font-family: 'Libre Baskerville', serif;
+}
+aside .ital{
+    color: #616857;
+}
+aside a:hover{
+    color:#0d8ba1;
+    transition: .4s;
+}
+.ital {
+    font-style: italic;
+}
+.author{
+    font-size: .8em;
+}
+#books > ul > li{
+    font-family: 'Julius Sans One', sans-serif;
+}
+#main-header{
+    border-top: 10px solid rgba(19, 67, 71, 0.9);
+}
+#view-designs-button{
+    width: 80%;
+    height: 4em;
+    background-color: rgba(255,255,255,.0);
+    color:white;
+    border: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1em;
+}
+#view-designs-button:hover{
+    background-color: rgba(255,255,255,.5);
+    transition: .4s;
+}
+#header-div{
+    background-image:  url(assets/gridlines-opaque.png),url(assets/contours-opaque.png),url(assets/huntington.jpg);
+    /* background-size: cover cover cover; */
+    
+}
+#sub-header{
+    width:100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    height:4em;
+}
+#section-2{
+    padding: 0;
+    margin: 0;
+    background-attachment: scroll, scroll, fixed;
+    background-image: url(assets/contours-opaque.png), url(assets/gridlines-opaque.png), url(assets/bamboo.png);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    
+    background-color: rgba(138,188,159,0.5)
+    
+}
+#nav{
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(assets/bamboo.png);
+}
+
+#sub-footer-1{
+    color: rgba(255, 255, 255, 0.4);
+    background: #3e5d67;
+    background-image: url(assets/contours.png), url(assets/gridlines.png), url(assets/noise.png), url(assets/koi.jpg);
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-position: 0 0, -5px -25px, 0 0, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+
+    margin: 0;
+    padding: 40px;
+}
+#sub-footer-2{
+    background-color: #134347;
+    height: 3.5em;
+    margin: 0;
+    padding: 0;
+}
+#main-footer{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media(min-width:1130px){
+    body{
+        display: grid;
+        grid-template-areas:
+            "h h h h h h h h h h h h"
+            "s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 b b"
+            "s2 s2 s2 s2 s2 s2 s2 s2 s2 s2 n n"
+            "s3 s3 s3 s3 s3 s3 s3 s3 s3 . . ."
+            "f f f f f f f f f f f f"
+            "f f f f f f f f f f f f";
+
+        margin: auto;
+
+    }
+    section {
+       padding-left:40px;
+    }
+    
+    #main-header{
+        grid-area:h;
+    }
+    #sub-header{
+        width:250px;
+        background-color:rgba(138,188,159,0.5);
+        position: relative;
+        top:-50%;
+        left: 100%;
+        transform: translate(-110%,50%)
+
+        
+    }
+    #section-1 {
+        grid-area: s1;
+    }
+    #section-2 {
+        grid-area: s2;
+        padding-left: 40px;
+    }
+    #section-3{
+        grid-area: s3;
+    }
+    #books{
+        grid-area: b;
+        background-color:rgba(138,188,159,0.3);
+        width: 300px;
+    }
+    #books > ul {
+        display: flex;
+        flex-direction: column;
+
+    }
+    #books > li {
+        margin: 40px;
+    }
+    #nav {
+        grid-area: n;
+        background-color:rgba(138,188,159,0.8);
+        width: 300px;
+      
+    }
+    #nav > ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #header-div{
+        grid-area: h;
+    }
+    #sub-header{
+        grid-area: h2;
+    }
+    footer {
+        grid-area: f;
+    }
+
+
+    /*do grid stuff*/
+
+    
+}
