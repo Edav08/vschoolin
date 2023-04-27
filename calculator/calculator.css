@@ -1,0 +1,17 @@
+body {
+
+background-color:brown;
+}
+
+#firstNoInput{
+    background-color: blue;
+}
+
+#secondNoInput{
+    background-color: darkgreen;
+}
+
+#button{
+    background-color: aqua;
+    color:red
+}
